@@ -1,0 +1,26 @@
+{
+    "name": "zend-get-plural-index.js",
+    "version": "0.1.0",
+    "author": "Рустам Гимранов",
+    "license": "BSD",
+    "keywords": [
+        "plural",
+        "pluralization",
+        "plural rules",
+        "zend plural index",
+        "zend translate plural"
+    ],
+    "description": "Get the index to use for pluralization in javascript. The plural rules are derived from code of the Zend Framework.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/russsiq/zend-get-plural-index.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/russsiq/zend-get-plural-index.js/issues"
+    },
+    "homepage": "https://github.com/russsiq/zend-get-plural-index.js#readme"
+}

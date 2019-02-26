@@ -20,11 +20,11 @@ npm i zend-get-plural-index.js --save-dev
 ### Getting started and usage examples
 
 ```js
-<script type="text/ecmascript-6">
+// script type="text/ecmascript-6"
 import getPluralIndex from 'zend-get-plural-index.js'
 
 let count, index
-let locale = 'ru_Ru'
+let locale = 'ru_Ru' // or just 'ru'
 let choices = ['яблоко', 'яблока', 'яблок']
 
 count = 22
@@ -38,5 +38,4 @@ console.log(`У меня осталось ${count} ${choices[index]}.`)
 count = 888
 index = getPluralIndex(locale, count)
 console.log(`Но у меня скоро будет ${count} ${choices[index]}.`)
-</script>
 ```
